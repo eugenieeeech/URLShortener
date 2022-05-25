@@ -1,7 +1,11 @@
 package main
 
-import "URLShortner/model"
+import (
+	"URLShortner/model"
+	"URLShortner/server"
+)
 
 func main() {
 	model.Setup()
+	server.SetupAndListen()
 }

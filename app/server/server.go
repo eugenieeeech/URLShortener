@@ -18,7 +18,6 @@ func redirect(c *fiber.Ctx) error {
 			"message": "could not find short in DB " + err.Error(),
 		})
 	}
-	// grab any stats you want...
 	short.Clicked += 1
 	err = model.UpdateURLshort(short)
 	if err != nil {
