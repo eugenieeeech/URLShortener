@@ -19,7 +19,7 @@ type URLshort struct {
 
 func Setup() {
 
-	dsn := "host=172.17.0.2 user=admin password=test dbname=admin port=5432 sslmode=disable"
+	dsn := "host=localhost user=admin password=test dbname=admin port=5432 sslmode=disable"
 	var err error
 	db, err = gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	if err != nil {
