@@ -1,5 +1,5 @@
 # URLShortener
-This is the backend of url shortener for saving the shorten links. The shorten links can be randomized or customized.
+This is the backend of url shortener for saving & retrieving the shorten links. The shorten links can be randomized or customized.
 
 ### New To docker
 
